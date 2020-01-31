@@ -12,6 +12,6 @@ Make sure you have a OpenVPN configuration for your Duplo agent before start.
     `docker build -t duplo:0.1 .`
 1. Run a newly build docker image
     
-    `docker run --privileged duplo:1.0`
+    `docker run --privileged duplo:0.1`
 
 1. Done
