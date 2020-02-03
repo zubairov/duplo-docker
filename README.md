@@ -5,7 +5,7 @@ Docker image for starting a duplo agent
 
 Make sure you have a OpenVPN configuration for your Duplo agent before start.
 
-1. Paste your Agent configuration into into `client.opvpn`
+1. Paste your Agent configuration into into `client.ovpn`
 
 1. Build a docker image
 
