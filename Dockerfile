@@ -10,7 +10,7 @@ RUN apk --no-cache --no-progress upgrade && \
 HEALTHCHECK --interval=60s --timeout=15s --start-period=120s \
              CMD curl -L 'https://api.ipify.org'
 
-COPY client.opvpn .
+COPY client.ovpn .
 COPY run.sh .
 
 ENTRYPOINT ["/sbin/tini", "--", "/run.sh"]
